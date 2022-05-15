@@ -9,7 +9,8 @@ namespace GenericsIntro
     internal class MyList<T>
     {
         T[] items;
-        //constructor
+        //constructor = newlediğin anla çalışan bloga denir.
+
         public MyList()
         {
             items = new T[0];
